@@ -1,13 +1,19 @@
-.container{
+.header{
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     border-bottom: 1px solid #bbb;
+    
 }
 
-#pages{
+ul{
     display: flex;
-    column-gap: 20px;
-    font-size: 20px;
+    column-gap: 30px;
+}
+li{
+    list-style: none;
+    column-gap: 50px;
+    font-size: 30;
 }
